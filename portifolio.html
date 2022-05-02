@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Raleway:wght@300&family=Roboto&family=Water+Brush&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+   
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    <title>. : Raphael Teles : .</title>
+</head>
+<body>
+<header>
+    <div>
+        <ul>
+            <li>
+                <a target="_blank" href="https://github.com/RaphaelTeles">GitHub</a>
+
+            </li>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/raphael-teles-1a7596204/">LinkedIn</a>
+
+            </li>
+            <li>
+                <a target="_blank" href="https://wa.me/11958882741">Whatsapp</a>
+           
+            </li></ul>
+
+        </ul>
+    </div>
+</header>  
+<main>
+
+    <section class="container">
+<div class="name">
+        <h1>Raphael Teles</h1>
+        <h5>Front-End Developer</h5>
+</div>
+<div onclick="displayAbout()" id="arrow">
+    <i id="animation" class='bx bxs-chevrons-down'></i>
+</div>
+<div style="display: none;" id="about">
+<h4>
+    <p>
+Cursando o último semestre do curso Análise e Desenvolvimento de Sistemas,
+Estou sempre em busca de adquirir conhecimento, seja para evoluir nas tecnologias que já sei, como também adquirir conhecimento sobre novas tecnologias.
+<p>Em Front-End possuo experiência com JavaScript, Jquery, HTML, CSS, GIT, Figma.
+</p></p> </h4>
+
+</div>
+<div class="form">
+   <div>
+       <p>Deixe seu contato!</p>
+   </div>
+    <form action="">
+        <input type="text" placeholder="Seu melhor Email ">
+        <button>Enviar!</button>
+    </form>
+</div>
+      </div>
+    </section>
+</main>  
+<script>
+
+    function displayAbout() {
+         var arrow = document.getElementById('animation');
+         arrow.classList.toggle('rotate');
+         var display = document.getElementById('about');
+         display.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
